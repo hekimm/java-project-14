@@ -23,7 +23,11 @@ public static boolean asalMi(int sayi){
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    asalMi(36);
+    for(int i =0;i<1000;i++){
+        if (asalMi(i)){
+            System.out.println(i);
+        }
+    }
     }
     
 }
